@@ -6,5 +6,9 @@
     "es": {
         "hello": "¡Hola, Mundo!",
         "goodbye": "¡Adiós!"
+    },
+    "de": {
+        "hello": "Hallo, Welt!",
+        "goodbye": "Auf Wiedersehen!"
     }
 }
