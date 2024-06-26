@@ -4,12 +4,12 @@ import sys
 
 from jinja2 import Environment, FileSystemLoader
 
-def translate(text, locale='en', translations={}):
-    return translations.get(locale, {}).get(text, text)
-
 # Load translations from JSON file
 with open('templates/translations.json', 'r') as file:
     translations = json.load(file)
+
+def translate(text, locale='en', translations=translations):
+    return translations.get(locale, {}).get(text, text)
 
 # Set up Jinja environment
 env = Environment(
