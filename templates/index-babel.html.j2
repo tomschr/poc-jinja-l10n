@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+<head>
+    <meta charset="UTF-8">
+    <title>{% trans %}English{% endtrans %}</title>
+</head>
+<body>
+    <h1>{{ _("SUSE Documentation") }}</h1>
+    <p>{% trans %}Hello, World!{% endtrans %}</p>
+    <p>{% trans %}Goodbye!{% endtrans %}</p>
+    <p>{% trans trimmed count=count 
+    -%}There is one guide.{% pluralize count 
+    -%}There are {{ count }} guides.{%- endtrans -%}
+    </p>
+    <p>{{ _("Hello, %(user)s!")|format(user=user) }}</p>
+</body>
+</html>
