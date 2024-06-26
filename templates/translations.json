@@ -1,0 +1,10 @@
+{
+    "en": {
+        "hello": "Hello, World!",
+        "goodbye": "Goodbye!"
+    },
+    "es": {
+        "hello": "¡Hola, Mundo!",
+        "goodbye": "¡Adiós!"
+    }
+}
