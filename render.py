@@ -23,7 +23,7 @@ else:
 
 
 # Add the function as a filter
-env.filters['translate'] = translate
+env.filters['trans'] = translate
 
 # Load and render the template with the appropriate context
 template = env.get_template('index.html.j2')
