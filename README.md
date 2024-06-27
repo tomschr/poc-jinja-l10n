@@ -132,3 +132,9 @@ If you update your Jinja templates with additional translatable strings, proceed
 
        $ pybabel compile -d locale -l es
        $ pybabel compile -d locale -l de
+
+
+# Resources
+
+* https://jinja.palletsprojects.com/en/3.0.x/
+* https://babel.pocoo.org/en/latest/index.html
