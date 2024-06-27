@@ -262,7 +262,6 @@ fabric.properties
 # Ignore files in the project's root:
 /*.patch
 /*.diff
-/*.py
 # but not this file:
 !/setup.py
 
