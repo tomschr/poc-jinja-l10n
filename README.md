@@ -81,7 +81,7 @@ It's similar to the custom method:
 
 Before you can do that, you need to create a language catalog.
 
-## Creating localized Jinja templates with Babel
+## Creating new language catalogs with Babel
 
 Babel is a popular library for internationalizing and
 localizing Python applications. It works well with Jinja
@@ -111,7 +111,7 @@ To create localized language catalogs, proceed as follows:
        $ pybabel compile -d locale -l es
        $ pybabel compile -d locale -l de
 
-## Updating the language catalogs
+## Updating existing language catalogs
 
 If you update your Jinja templates with additional translatable strings, proceed as follows:
 
